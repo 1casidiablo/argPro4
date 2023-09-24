@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(219, 220, 222);
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(1, 11, 29), rgb(186, 184, 184));
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 5px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+h1:hover{
+    color:rgb(10, 9, 9)
+}
+
+h3:hover {
+    color: rgb(62, 47, 175)
+}
+
+.contenedor {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px rgb(187, 198, 214);
+    border-radius: 10px;
+}
+
+.contenedor2 {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px rgb(187, 198, 214);
+    border-radius: 10px;
+    text-align:left;
+}
+
+
+
+.contenedor3 {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 7px rgb(187, 198, 214);
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+h2,
+p {
+    color: rgb(17, 22, 37);
+}
+
+p:hover{
+    text-transform: uppercase;
+}
+
+h2 span,
+p span {
+    color: rgb(119, 137, 172);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    background: linear-gradient(to right, rgb(14, 67, 174), rgb(7, 94, 224));
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
